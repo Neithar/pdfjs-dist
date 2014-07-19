@@ -1,15 +1,7 @@
-## A bower build for [mozilla/pdf.js](https://github.com/mozilla/pdf.js)
+## Build copy of [mozilla/pdf.js](https://github.com/mozilla/pdf.js)
 
-### Usage
-
-`bower install pdfjs-bower --save`
-
-Link the necessary javascript files into your page.
-
-    <script src="/bower_components/pdfjs-bower/dist/compatibility.js"></script>
-    <script src="/bower_components/pdfjs-bower/dist/pdf.js"></script>
-
-__Enjoy__
+### Disclaimer
+> This repo is forked from [joseym/pdfjs-bower](https://github.com/joseym/pdfjs-bower).
 
 ---
 
@@ -17,20 +9,34 @@ __Enjoy__
 Currently the build is for pdf.js `v1.0.233`.
 You can build yourself by doing the following
 
-##### Prepping (getting pdf.js)
-- `git clone https://github.com/joseym/pdfjs-bower.git`
-- `git submodule init`
-- `git submodule update` -- used to get the current version of pdf.js
+#### Prepping (getting pdf.js)
+1. Clone this repo
 
-##### Building
-> In your terminal please navigate to where the project is cloned
+   ```bash
+   $ git clone https://github.com/feryardiant/pdfjs-dist.git
+   ```
 
-- `cd pdfjs-bower`
-- `npm install -d`
-- `grunt`
+2. Grab the latest version from original [PDF.js](https://github.com/mozilla/pdf.js) repo
 
-> You should now see 3 files within the `dist` directory
+   ```bash
+   $ git submodule init && git submodule update
+   ```
 
-- `pdf.js`
-- `pdf.woker.js`
-- `compatibility.js`
+#### Building
+1. Install the dependencies
+
+   ```bash
+   $ npm install -d
+   ```
+
+2. Build with `grunt`
+
+   ```bash
+   $ grunt
+   ```
+
+3. You're done! You should now see 3 files within the `dist` directory
+
+   - [pdf.js](../master/pdf.js)
+   - [pdf.woker.js](../master/pdf.woker.js)
+   - [compatibility.js](../master/compatibility.js)
