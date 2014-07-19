@@ -1,24 +1,24 @@
 {
-  "name": "pdfjs-bower",
-  "version": "1.0.180",
-  "description": "PDF.JS bower build",
+  "name": "pdfjs-dist",
+  "version": "1.0.233",
+  "description": "PDF.JS build files",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/joseym/pdfjs-bower.git"
+    "url": "git://github.com/feryardiant/pdfjs-dist.git"
   },
   "keywords": [
     "pdf"
   ],
-  "author": "Josey Morton",
+  "author": "Fery Wardiyanto",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/joseym/pdfjs-bower/issues"
+    "url": "https://github.com/feryardiant/pdfjs-dist/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "grunt": "~0.4.5",
     "load-grunt-tasks": "~0.4.0",
     "grunt-bower-task": "~0.3.4",

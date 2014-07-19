@@ -1,11 +1,11 @@
 {
-  "name": "pdfjs-bower",
+  "name": "pdfjs-dist",
   "version": "1.0.233",
-  "homepage": "https://github.com/joseym/pdfjs-bower",
+  "homepage": "https://github.com/feryardiant/pdfjs-dist",
   "authors": [
-    "Josey Morton <me@joseymorton.com>"
+    "Fery Wardiyanto <ferywardiyanto@gmail.com>"
   ],
-  "description": "Bower build for mozilla/pdf.js.",
+  "description": "PDF.JS build files",
   "moduleType": [
     "node"
   ],
@@ -24,8 +24,6 @@
     "pdfjs",
     "Gruntfile.js",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ]
 }
