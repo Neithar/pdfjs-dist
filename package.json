@@ -1,6 +1,6 @@
 {
   "name": "pdfjs-dist",
-  "version": "1.0.233",
+  "version": "1.0.608",
   "description": "PDF.JS build files",
   "main": "app.js",
   "scripts": {
